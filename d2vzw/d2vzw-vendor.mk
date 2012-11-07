@@ -19,3 +19,4 @@ include $(all-subdir-makefiles)
 # Pick up overlay for features that depend on non-open-source files
 
 $(call inherit-product, vendor/samsung/d2vzw/d2vzw-vendor-blobs.mk)
+$(call inherit-product, vendor/samsung/d2-common/d2-common-vendor-common.mk)
